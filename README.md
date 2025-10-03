@@ -29,7 +29,7 @@
 
 Обоснуйте свой выбор.
 
-### Решение: GitLab + Gitlab CI/CD + собственные runner'ы
+#### Решение: GitLab + Gitlab CI/CD + собственные runner'ы
 ```
 GitLab
 - Единая платформа с Git-репозиториями, CI/CD и управлением секретами
@@ -78,8 +78,8 @@ GitLab CI/CD
 
 Обоснуйте свой выбор.
 
+#### Решение: EFK-стек (Elasticsearch + Fluent Bit + Kibana)
 ```
-Решение: EFK-стек (Elasticsearch + Fluent Bit + Kibana)
 Почему EFK:
 - Fluent Bit - сбор логов из stdout с гарантированной доставкой
 - Elasticsearch - центральное хранилище с поиском и фильтрацией
@@ -106,9 +106,8 @@ GitLab CI/CD
 
 Обоснуйте свой выбор.
 
+#### Решение: Prometheus + Grafana
 ```
-Решение: Prometheus + Grafana
-
 Почему:
 - Prometheus - сбор метрик с хостов и сервисов
 - Node Exporter - метрики хостов (CPU, RAM, диск, сеть)
